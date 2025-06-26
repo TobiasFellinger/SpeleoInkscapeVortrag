@@ -29,10 +29,12 @@ knitr::opts_chunk$set(echo = FALSE)
   
 ### Download der Vorlage
 
+
+
 * Inkscape Vorlage
-   * Download von [todo](todo)
+   * Download von [https://github.com/TobiasFellinger/SpeleoInkscapeVortrag](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/raw/refs/heads/main/Vorlage/vorlage_tobi.svg)
 * Schriftart für Abbruckanten Symbole
-  * Download von [todo](todo)
+  * Download von [https://github.com/TobiasFellinger/SpeleoInkscapeVortrag](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/raw/refs/heads/main/Vorlage/Abbrueche1.ttf)
   * Installation
     * Windows: Rechtsclick
     * OSX: Doppelclick
@@ -74,11 +76,11 @@ knitr::opts_chunk$set(echo = FALSE)
       `export model -fmt survex -o "dateiname.3d"`
 * Survex $\rightarrow$ Therion:  
   * `.3d`-File mit `import` command in `centerline` block importieren  
-    Siehe: [Anleitung](https://therion.speleo.sk/samples.doc/40.html)
+    Siehe: Anleitung [https://therion.speleo.sk/samples.doc/40.html](https://therion.speleo.sk/samples.doc/40.html)
   * oder händisch konvertieren  
-    Siehe [Anleitung](https://github.com/tr1813/migresurvey?tab=readme-ov-file#manually-dont-do-this-anymore)
+    Siehe Anleitung [https://github.com/tr1813/migresurvey?tab=readme-ov-file#manually-dont-do-this-anymore](https://github.com/tr1813/migresurvey?tab=readme-ov-file#manually-dont-do-this-anymore)
   * python script (nicht getestet)  
-    github: [Script](https://github.com/tr1813/migresurvey/blob/master/scripts/svx_to_th.py)
+    github: Script [https://github.com/tr1813/migresurvey/blob/master/scripts/svx_to_th.py](https://github.com/tr1813/migresurvey/blob/master/scripts/svx_to_th.py)
 
 ### Messdaten in Inkscape öffnen
 
