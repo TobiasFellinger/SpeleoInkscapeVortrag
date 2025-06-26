@@ -1,0 +1,17 @@
+encoding  utf-8
+# Created with SexyTopo 1.8.1 on 2024-08-31
+
+
+layout local
+  debug off
+  # map-header 0 0 off
+  symbol-hide group cave-centreline
+endlayout
+
+source "wetzelsberg.th"
+
+export model -fmt survex -o "wetzelsberg-th.3d"
+
+export map -proj plan -layout local -o "wetzelsberg-plan.pdf"
+
+export map -proj extended -layout local -o "wetzelsberg-ee.pdf"

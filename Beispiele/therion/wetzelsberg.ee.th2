@@ -1,0 +1,21 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -551.18 -629.92 1259.84 236.22
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "wetzelsberg.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap wetzelsberg-ee -projection extended
+
+point 704.7969 -335.08997 station -name 4
+
+point 255.89323 -191.35431 station -name 2
+
+point 0.0 0.0 station -name 1
+
+point 509.47116 -312.84918 station -name 3
+
+point 569.30115 -382.10547 label -text " knochen " -scale xs
+
+point 480.75812 -336.401 label -text " knochen " -scale xs
+
+endscrap
