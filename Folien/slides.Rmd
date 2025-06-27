@@ -19,10 +19,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Installation von Inkscape und Aven
 
-* Inkscape
+* Inkscape (Vektorgrafik)
   * Windows, Mac, Linux Appimage: Download von [https://inkscape.org/release/](https://inkscape.org/release/)
   * Linux über Paket-Manger: das paket heißt auf fast allen Distros `inkscape`
-* Aven
+* Survex/Aven (Messdatenverwaltung)
   * Windows, Max, Linux deb-Package, Sourcecode: Download von [https://survex.com/download.html](https://survex.com/download.html)
   * Linux über Paket-Manager: auf Debian verfügbar, Package `survex-aven`
   
@@ -70,10 +70,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Vermessungs Dateiformate konvertieren
 
-* Therion $\rightarrow$ Survex:  
-    * mit Therion  
-      in `.thconfig`:  
-      `export model -fmt survex -o "dateiname.3d"`
+* Therion $\rightarrow$ Survex: 
+  * mit Therion  
+    in `.thconfig`:  
+    `export model -fmt survex -o "dateiname.3d"`
 * Survex $\rightarrow$ Therion:  
   * `.3d`-File mit `import` command in `centerline` block importieren  
     Siehe: Anleitung [https://therion.speleo.sk/samples.doc/40.html](https://therion.speleo.sk/samples.doc/40.html)
@@ -88,10 +88,10 @@ knitr::opts_chunk$set(echo = FALSE)
   * `File > Export As > Svg`
   * Einmal Plan und einmal Längsschnitt exportieren  
 * Therion:
-  * mit inkscape Addon
+  * Umweg über Survex
+  * oder mit inkscape Addon
     * Installation von [github](https://github.com/speleo3/inkscape-speleo/)
     * Dann in Inkscape die `.th2` Files von Plan und Längsschnitt öffnen
-  * oder Umweg über Survex
 
 ![Survex Screenshot](Bilder/sceenshot_aven_svg.png){#id .class height=40%}
 
