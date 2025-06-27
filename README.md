@@ -10,4 +10,4 @@ Dieses Repository enthält Material zum Vortrag Höhlenpläne zeichnen mit Inksc
     * [Survex](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/tree/main/Beispiele/survex): Messdaten in Survex svx und 3d Format
     * [Therion](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/tree/main/Beispiele/therion): Messdaten und Skizzen als Therion Projekt
 * Folien
-    * Die [Vortragsfolien als pdf](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/raw/refs/heads/main/Folien/slides.pdf) sowie rmarkdown file und bilder aus denen die Folien erstellt wurden
+    * Die [Vortragsfolien als pdf](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/raw/refs/heads/main/Folien/slides.pdf) sowie rmarkdown file und bilder aus denen die Folien erstellt wurden (Update der Folien mit Fragen während des Vortrags folgt in den nächsten Tagen)
