@@ -1,11 +1,12 @@
 ---
 title: "Höhlenpläne Zeichnen mit Inkscape"
+subtitle: "Vorbereigung, Grundlagen und Daten Importieren"
 author: "Tobias Fellinger"
 date: "27. Juni 2025"
 fontsize: 10pt
 output: 
   beamer_presentation: 
-    slide_level: 3
+    slide_level: 2
 urlcolor: blue
 classoption: "aspectratio=169"
 ---
@@ -14,11 +15,9 @@ classoption: "aspectratio=169"
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Vorbereitung
+# Programme und Vorlagen
 
-## Programme und Vorlagen
-
-### Installation von Inkscape und Aven
+## Installation von Inkscape und Aven
 
 * Inkscape (Vektorgrafik)
   * Windows, Mac, Linux Appimage: Download von [https://inkscape.org/release/](https://inkscape.org/release/)
@@ -28,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
   * Linux über Paket-Manager: auf Debian verfügbar, Package `survex-aven`
   
   
-### Download der Vorlage
+## Download der Vorlage
 
 
 * Inkscape Vorlage
@@ -40,9 +39,9 @@ knitr::opts_chunk$set(echo = FALSE)
     * OSX: Doppelclick
     * Linux: je nach Distribution / Desktop Umgebung
   
-## Technische Basics
+# Technische Basics
 
-### Vektorgrafik
+## Vektorgrafik
 
 * Bild wird nicht als Raster von Farbwerten für jeden Pixel gespeichert
 * Formen im Bild werden beschrieben und erst für die Darstellung in Pixelwerte umgerechnet
@@ -52,7 +51,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![CC-BY Wikimedia User:Yug](Bilder/Bitmap_VS_SVG.svg.png){#id .class height=25%}
 
-### SVG Dateiformat
+## SVG Dateiformat
 
 * xml-basiertes Vektor-Dateiformat
 * offenes Dateiformat mit breiter Unterstützung, Grafik-Programme, Browser, ...
@@ -66,9 +65,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Beispiel](Bilder/svg_beispiel.png){#id .class height=25%}
 
-## Daten Konvertieren
+# Daten Konvertieren
 
-### Vermessungs Dateiformate konvertieren
+## Vermessungs Dateiformate konvertieren
 
 * Therion $\rightarrow$ Survex: 
   * mit Therion  
@@ -82,7 +81,7 @@ knitr::opts_chunk$set(echo = FALSE)
   * python script (nicht getestet)  
     github: Script [https://github.com/tr1813/migresurvey/blob/master/scripts/svx_to_th.py](https://github.com/tr1813/migresurvey/blob/master/scripts/svx_to_th.py)
 
-### Messdaten in Inkscape öffnen
+## Messdaten in Inkscape öffnen
 
 * Survex:
   * `File > Export As > Svg`
@@ -95,76 +94,3 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Survex Screenshot](Bilder/sceenshot_aven_svg.png){#id .class height=40%}
 
-# Zeichnen mit Inkscape
-
-## Ebenen und Gruppen
-
-* Reiter `Layers and Objects`
-* Sichtbar / Unsichtbar machen
-* Für Bearbeitung Sperren / Entsperren
-  * Entsperren auch für Kopieren notewendig
-* Objete einer Gruppe / Ebene auswählen und gemeinsam bearbeiten
-
-## Allgemeine Zeichen Werkzeuge
-
-### Objekt Werkzeuge
-
-* Transformation (Skalieren/Verschieben/Drehen/Scheren)
-* Nach vorne / hinten verschieben `Pg up`/`Pg down`
-* Gruppieren / Gruppierung Aufheben
-* Clipping und Maskierung setzen / aufheben
-  * Vorderes Objekt ist Maske für hinteres
-
-### Pfad-Werkzeuge und Formen
-
-* Polygon
-* Bezier-Kurven
-* Freihand-Linien
-* Splines
-
-### Boolsche-Operationen
-
-* Durchschnitt & Vereinigung
-* Verbinden & Aufspalten
-* Segmente Einfügen & Löschen
-
-### Weitere Pfad Eigenschaften
-
-* Nodes hinzufügen, entfernen
-* Combine & Break Apart
-
-### Pfad Eigenschaften
-
-* Reiter `Fill and Stroke`
-* Stile kopieren und einfügen `Strg+Shift+V`
-
-## Symbole
-
-* Reiter `Symbols`
-* Hinzufügen und Entfernen (unten im Reiter)
-
-## Effekte und Spezial Tools
-
-### Mit Muster Füllen
-
-* Editieren mit Node Tool
-* Hinzufügen und Entfernen mit `Object > Pattern`
-* Umbenennen im SVG editor
-
-### Pattern Along Path / live Path Effects
-
-* Reiter `Path Effects`
-* `Path > Paste Path Effects`
-* Pattern along Path
-  * Referenz Objekt Auswählen
-
-### Spray Tool
-
-* Objekte auswählen (z.b. Geröll)
-* Einstellungen `Width`, `Ammount`, `Rotation`, `Scale`
-* Einstellungen overlap, apply to transparent / non trasparent
-
-## Speichern und Exportieren
-
-* pdf: `File > Save a Copy`
-* png: Reiter `Export`

@@ -1,0 +1,88 @@
+---
+title: "Höhlenpläne Zeichnen mit Inkscape"
+subtitle: "Zeichnen mit Inkscape"
+author: "Tobias Fellinger"
+date: "27. Juni 2025"
+fontsize: 10pt
+output: 
+  beamer_presentation: 
+    slide_level: 3
+urlcolor: blue
+classoption: "aspectratio=169"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Ebenen und Gruppen
+
+* Reiter `Layers and Objects`
+* Sichtbar / Unsichtbar machen
+* Für Bearbeitung Sperren / Entsperren
+  * Entsperren auch für Kopieren notewendig
+* Objete einer Gruppe / Ebene auswählen und gemeinsam bearbeiten
+
+# Allgemeine Zeichen Werkzeuge
+
+## Objekt Werkzeuge
+
+* Transformation (Skalieren/Verschieben/Drehen/Scheren)
+* Nach vorne / hinten verschieben `Pg up`/`Pg down`
+* Gruppieren / Gruppierung Aufheben
+* Clipping und Maskierung setzen / aufheben
+  * Vorderes Objekt ist Maske für hinteres
+
+## Pfad-Werkzeuge und Formen
+
+* Polygon
+* Bezier-Kurven
+* Freihand-Linien
+* Splines
+
+## Boolsche-Operationen
+
+* Durchschnitt & Vereinigung
+* Verbinden & Aufspalten
+* Segmente Einfügen & Löschen
+
+## Weitere Pfad Eigenschaften
+
+* Nodes hinzufügen, entfernen
+* Combine & Break Apart
+
+## Pfad Eigenschaften
+
+* Reiter `Fill and Stroke`
+* Stile kopieren und einfügen `Strg+Shift+V`
+
+# Symbole
+
+* Reiter `Symbols`
+* Hinzufügen und Entfernen (unten im Reiter)
+
+# Effekte und Spezial Tools
+
+## Mit Muster Füllen
+
+* Editieren mit Node Tool
+* Hinzufügen und Entfernen mit `Object > Pattern`
+* Umbenennen im SVG editor
+
+## Pattern Along Path / live Path Effects
+
+* Reiter `Path Effects`
+* `Path > Paste Path Effects`
+* Pattern along Path
+  * Referenz Objekt Auswählen
+
+## Spray Tool
+
+* Objekte auswählen (z.b. Geröll)
+* Einstellungen `Width`, `Ammount`, `Rotation`, `Scale`
+* Einstellungen overlap, apply to transparent / non trasparent
+
+# Speichern und Exportieren
+
+* pdf: `File > Save a Copy`
+* png: Reiter `Export`
