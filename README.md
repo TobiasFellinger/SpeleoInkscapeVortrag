@@ -26,9 +26,9 @@ geworden ist, folgt auch noch ein Mitschnitt der live-Demos.
     * [Survex](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/tree/main/Beispiele/survex): Messdaten in Survex svx und 3d Format
     * [Therion](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/tree/main/Beispiele/therion): Messdaten und Skizzen als Therion Projekt
 * Folien
-  * Folien zu Grundlagen, Installation der Programme und Import der Messdaten [slides_vorbereitung.pdf](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/tree/main/01_Folien_Vorbereitung/slides_vorbereitung.pdf)
-  * Folien zum Zeichnen in Inkscape [slides_zeichnen.pdf](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/tree/main/02_Folien_Zeichnen/slides_zeichnen.pdf)
-  * Folien mit Schritt für Schritt Anleitungen für Beispiele [slides_beispiele.pdf](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/tree/main/03_Folien_Beispiele/slides_beispiele.pdf)
+  * Folien zu Grundlagen, Installation der Programme und Import der Messdaten [slides_vorbereitung.pdf](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/raw/refs/heads/main/01_Folien_Vorbereitung/slides_vorbereitung.pdf)
+  * Folien zum Zeichnen in Inkscape [slides_zeichnen.pdf](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/raw/refs/heads/main/02_Folien_Zeichnen/slides_zeichnen.pdf)
+  * Folien mit Schritt für Schritt Anleitungen für Beispiele [slides_beispiele.pdf](https://github.com/TobiasFellinger/SpeleoInkscapeVortrag/raw/refs/heads/main/03_Folien_Beispiele/slides_beispiele.pdf)
   
 ## Externe Ressourcen
 
