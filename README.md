@@ -32,4 +32,9 @@ geworden ist, folgt auch noch ein Mitschnitt der live-Demos.
   
 ## Externe Ressourcen
 
+* [Speleo Merkblätter](https://hoehle.org/spelaeomerkblaetter) des Verbands Österreichischer Höhlenforschung, insbesondere relevant sind:
+  * [B41 Die Grundausstattung des Hoehlenplans](https://hoehle.org/downloads/merkblaetter/einzeln/B41%20Die%20Grundausstattung%20des%20Hoehlenplans.pdf)
+  * [B43 Höhlenplansignaturen](https://hoehle.org/downloads/merkblaetter/einzeln/B43%20Hoehlenplansignaturen.pdf)
+  * [B44 Schachtdarstellung in Hoehlengrundrissen](https://hoehle.org/downloads/merkblaetter/einzeln/B44%20Schachtdarstellung%20in%20Hoehlengrundrissen.pdf)
+  * [B51 Planzeichnen am Computer](https://hoehle.org/downloads/merkblaetter/einzeln/B51%20Planzeichnen%20am%20Computer.pdf) bezieht sich auf das Programm Corel Draw, genaue Schritte sind also unterschiedlich. Aber die Herangehensweise ist in Inkscape gleich.
 * [Liste aller Inkscape Tastatur- und Maus-Befehle](https://inkscape.org/de/doc/keys.html)
